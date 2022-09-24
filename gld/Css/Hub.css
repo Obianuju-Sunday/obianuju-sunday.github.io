@@ -33,13 +33,12 @@ a {
 }
 
 .login-form {
-    height: 100vh;
-    border-radius: 20 20px 0 0;
-    /* background-color:rgba(0, 103, 244, 1); */
-    padding: 1rem 0;
-    align-content: center;
-    max-width: 300px;
-    margin: auto;
+    border-radius: 20px 20px 0 0;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
 }
 
 form {
